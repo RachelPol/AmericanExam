@@ -1,0 +1,80 @@
+﻿<Window x:Class="AmericanExam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AmericanExam"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <local:Exam DisplayName="Serias">
+        <local:Exam.Questions>
+            <local:Question Caption="Who is the missing item in the series: 1 , 2 , 3 , 5 , 8 , 13 , ?" CorrectAnswer="1">
+                <local:Question.Answers>
+                    <sys:String>21</sys:String>
+                    <sys:String>18</sys:String>
+                    <sys:String>16</sys:String>
+                    <sys:String>23</sys:String>
+                </local:Question.Answers>
+            </local:Question>
+            <local:Question Caption="Who is the missing item in the series: 2 , 3 , 6 , 7 , 10 , 11 , 14 , 15 , ?" CorrectAnswer="2">
+                <local:Question.Answers>
+                    <sys:String>21</sys:String>
+                    <sys:String>18</sys:String>
+                    <sys:String>16</sys:String>
+                    <sys:String>23</sys:String>
+                </local:Question.Answers>
+            </local:Question>
+            <local:Question Caption="Who is the missing item in the series: 4 , ? , 16 , 25 , 36" CorrectAnswer="2">
+                <local:Question.Answers>
+                    <sys:String>7</sys:String>
+                    <sys:String>9</sys:String>
+                    <sys:String>10</sys:String>
+                    <sys:String>18</sys:String>
+                </local:Question.Answers>
+            </local:Question>
+            <local:Question Caption="Who is the missing item in the series: 1 , 3 , 9 , ? , 81" CorrectAnswer="4">
+                <local:Question.Answers>
+                    <sys:String>21</sys:String>
+                    <sys:String>18</sys:String>
+                    <sys:String>16</sys:String>
+                    <sys:String>27</sys:String>
+                </local:Question.Answers>
+            </local:Question>
+
+            <local:Question Caption="Who is the missing item in the series: 5 , 9 , 15 , 23 , 33 , ?" CorrectAnswer="4">
+                <local:Question.Answers>
+                    <sys:String>40</sys:String>
+                    <sys:String>38</sys:String>
+                    <sys:String>42</sys:String>
+                    <sys:String>45</sys:String>
+                </local:Question.Answers>
+            </local:Question>
+            <local:Question Caption="Who is the missing item in the series: 6 , 4 , 7 , 5 , 8 , ?" CorrectAnswer="2">
+                <local:Question.Answers>
+                    <sys:String>5</sys:String>
+                    <sys:String>6</sys:String>
+                    <sys:String>11</sys:String>
+                    <sys:String>9</sys:String>
+                </local:Question.Answers>
+            </local:Question>
+            <local:Question Caption="Who is the missing item in the series: 5 , 9 , 17 , 33 , 65 , ?" CorrectAnswer="4">
+                <local:Question.Answers>
+                    <sys:String>77</sys:String>
+                    <sys:String>85</sys:String>
+                    <sys:String>111</sys:String>
+                    <sys:String>129</sys:String>
+                </local:Question.Answers>
+            </local:Question>
+            <local:Question Caption="Who is the missing item in the series: 13 , 21 , 17 , 25 , 21 , ?" CorrectAnswer="1">
+                <local:Question.Answers>
+                    <sys:String>29</sys:String>
+                    <sys:String>25</sys:String>
+                    <sys:String>19</sys:String>
+                    <sys:String>23</sys:String>
+                </local:Question.Answers>
+            </local:Question>
+        </local:Exam.Questions>
+
+    </local:Exam>
+</Window>
